@@ -53,8 +53,8 @@ function Bird() {
     this.gapStart = random(this.topMin, this.botMin);
     this.gapLength = 200;
     this.speed = 10;
-    this.img2 = loadImage("asteroid.png");
-    this.img3 = loadImage("deadasteroid.png");
+    this.img2 = loadImage("Gaivota.png");
+    this.img3 = loadImage("Gaivota.png");
   
     this.show = function () {
       fill(0);
